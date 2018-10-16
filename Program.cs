@@ -10,7 +10,7 @@ namespace Capstone_1
         {
             Console.WriteLine("Please enter a word:");
             string word = Console.ReadLine().ToLower();
-            int vowelPlace = word.IndexOfAny(new char[] { 'a', 'e', 'i', 'o', 'u' });
+            int vowelPlace = word.IndexOfAny(new char[] {'a','e','i','o','u'});
             Console.WriteLine(PigLatin(word, vowelPlace));
         }
 
@@ -32,5 +32,5 @@ namespace Capstone_1
                     }
                     return word;
                 }
-      }
+          }
     }
